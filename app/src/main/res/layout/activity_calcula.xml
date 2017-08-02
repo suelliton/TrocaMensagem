@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.suelliton.trocamensagem.CalculaActivity">
+
+
+    <TextView
+        android:id="@+id/TfirstNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="First Number :" />
+
+    <TextView
+        android:id="@+id/TsecondNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Second Number :" />
+
+    <Button
+        android:id="@+id/Bsomar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Somar" />
+
+    <Button
+        android:id="@+id/Bsubtrair"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subtrair" />
+
+    <Button
+        android:id="@+id/Bdividir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dividir" />
+
+    <Button
+        android:id="@+id/Bmultiplicar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Multiplicar" />
+</android.widget.LinearLayout>
